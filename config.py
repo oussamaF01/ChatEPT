@@ -11,7 +11,7 @@ load_dotenv()
 
 # Your OpenRouter API key
 # Replace 'your_openrouter_api_key_here' with your actual API key
-api = "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"
+api = "api_key"
 
 # Alternative: Use environment variable (recommended for security)
 # Uncomment the line below if you prefer to use environment variables
@@ -74,4 +74,5 @@ ENABLE_STATUS_COMMAND = True
 # ========================================
 
 LOG_LEVEL = "INFO"
+
 LOG_FILE = "logs/chatbot.log"
